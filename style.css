@@ -13,6 +13,8 @@
 
 }
 
+
+
 /* Text preset classes */
 
 
@@ -45,3 +47,24 @@
 .text-preset-1, text-preset-2, text-preset-3, text-preset-4 {
     line-height: 110%;
 }
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+  
+  body {
+
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  img {
+
+    max-width: 100%;
+  }
