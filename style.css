@@ -51,9 +51,12 @@ header {
   padding: 3rem 2.25rem 2rem;
 }
 
+main {
+  padding: 2rem 2rem 4rem;
+}
+
 .header-text-container {
   align-items: center;
-  text-align: center;
 }
 
 .header-logo {
@@ -71,10 +74,63 @@ header {
   max-width: 135%;
 }
 
-h1 {
+/* headings */
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+main > h2 {
   color: var(--color__slate-900);
+}
+
+footer > h2,
+p {
+  color: var(--color__white);
+}
+
+h1 {
   font-weight: var(--font-weight-black);
   font-size: 2.5rem;
   line-height: 110%;
   padding: 0 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-black);
+  line-height: 110%;
+}
+
+/* paragraphs */
+
+p {
+  font-size: 1rem;
+  color: var(--color__slate-600);
+  line-height: 150%;
+  text-align: center;
+}
+
+main p:first-of-type {
+  font-size: 0.75rem;
+  color: var(--color__cyan-600);
+  font-weight: var(--font-weight-black);
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+footer p {
+  color: var(--color__white);
+}
+
+/* main images  */
+
+.main-pic-container {
+  display: grid;
+}
+
+.main-pic-container > img {
+  max-width: 100%;
 }
