@@ -182,3 +182,33 @@ footer p {
 .btn-accent-purple {
   color: var(--color__purple-300);
 }
+
+/* numbered divider */
+
+.numbered-divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.divider-line {
+  height: 5rem;
+  width: 50%;
+  border-right: 1px solid var(--color__slate-300);
+  align-self: flex-start;
+}
+
+.circle {
+  font-size: 1rem;
+  font-weight: var(--font-weight-black);
+  line-height: 150%;
+  color: var(--color__slate-600);
+  border: 1px solid var(--color__slate-300);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
